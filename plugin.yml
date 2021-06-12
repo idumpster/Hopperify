@@ -1,0 +1,15 @@
+name: Hopperify
+main: aris\Main
+api: 3.19
+version: 1.0.0
+author: NTT
+website: https://github.com/NTT1906/Hopperify
+description: Add customable hopper to Pocketmine
+commands:
+  hopper:
+    description: "Hopper settings"
+permissions:
+  hopper.cmd:
+    default: op
+  hopper.vip:
+    default: false

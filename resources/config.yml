@@ -1,0 +1,30 @@
+---
+# Item transfer Behaviour
+# Every "tick-rate" game ticks, "per-tick" items are transferred from container to container.
+# Default:
+#   tick-rate: 8
+#   per-tick: 1
+
+# Item-sucking Behaviour
+# Every "tick-rate" game ticks, "per-tick" number of item entities scan for hoppers below them.
+# Default:
+#  tick-rate: 1
+#  per-tick: 16
+normal:
+  transfer:
+    tick-rate: 10
+    per-tick: 5
+  item-sucking:
+    tick-rate: 5
+    per-tick: 16
+  limit: 25
+
+vip:
+  transfer:
+    tick-rate: 5
+    per-tick: 5
+  item-sucking:
+    tick-rate: 1
+    per-tick: 16
+  limit: 30
+...
